@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Loss Tracker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <div id="containerWeightDisplay">
+        <h1>WEIGHT LOSS TRACKER</h1>
+        <div id="currentWeight">
+            <h2>CURRENT WEIGHT</h2>
+            <div class="weight"><output id="mainWeight">XXX</output></div>
+            <p>pounds</p>
+        </div>
+        <button type="button" id="btnRecord">RECORD YOUR WEIGHT</button>
+        <div id="weightHistory">
+            <h2>WEIGHT HISTORY</h2>
+        </div>
+    </div>
+    <div id="containerWeightEntry">
+        <h1>WEIGHT LOSS TRACKER</h1>
+        <div id="weightRecords">
+            <div id="enterWeight1">
+                <h2>ENTER WEIGHT</h2>
+                <div id="weightEntry">
+                    <input type="text" id="newWeight" placeholder="e.g..,150" />
+                </div>
+                <p>pounds</p>
+            </div>
+            <div id="enterWeight2">
+                <h2>DATE</h2>
+                <output id="outputDate"></output>
+            </div>
+            <button type="button" id="btnSave">SAVE</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
