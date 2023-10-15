@@ -14,6 +14,11 @@ This project is a web-based Weight Loss Tracker that allows users to record and 
 - View your current weight.
 - Display a history of recorded weights with dates.
 
+Technologies Used:
+HTML
+CSS (Styling, Font: Poppins)
+JavaScript (Logic, Local Storage for data persistence)
+
 ## Getting Started
 
 ### Prerequisites
